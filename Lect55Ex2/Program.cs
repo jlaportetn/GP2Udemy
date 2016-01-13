@@ -15,11 +15,9 @@ namespace Lect55Ex2
             var name = Console.ReadLine();
             char[] nameAsArray = name.ToCharArray();
             Array.Reverse(nameAsArray);
-            {
-                Console.Write(nameAsArray);
-                Console.ReadKey();
-            }
-        }
+            Console.Write(nameAsArray);
+            Console.ReadKey();
         }
     }
+}
 

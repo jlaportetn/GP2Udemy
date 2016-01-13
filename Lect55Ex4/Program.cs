@@ -10,17 +10,16 @@ namespace Lect55Ex4
     {
         static void Main(string[] args)
         {
+            //Still working on this solution
             Console.WriteLine("Please enter a sequence of numbers, or type quit to exit.");
             var numbers = (Console.ReadLine());
+            var numbersList = new List<int>();
 
-            if (numbers == "quit")
+            while (numbers != "quit")
             {
-                Console.ReadKey();
-            }
-            else
-            {
-                var numbersList = new List<int>();
-                numbersList = numbers.Split(' ').Select(Int32.Parse).ToList();
+                int numbersAsInt = Int32.TryParse(numbers, out numbersAsInt);
+                numbersList.Add(numbersAsInt);
+                numbers = Console.ReadLine();
                 List<int> Distinct = numbersList.Distinct().ToList();
 
                 foreach (int i in Distinct)

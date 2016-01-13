@@ -12,10 +12,15 @@ namespace Lect55Ex1
         {
             Console.WriteLine("Please enter the names of friends that liked you post, press enter when complete");
 
-            var userEntry = Console.ReadLine();
+            string userEntry = null;
+            userEntry = Console.ReadLine();
             var listOfNames = new List<string>();
-            listOfNames = userEntry.Split(' ').ToList();
 
+            while (string.IsNullOrEmpty(userEntry) == false)
+            {
+                listOfNames.Add(userEntry);
+                userEntry = Console.ReadLine();
+            }
             if (listOfNames.Count == 1)
             {
                 Console.WriteLine(listOfNames[0] + " Liked your post");

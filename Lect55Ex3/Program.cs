@@ -15,7 +15,6 @@ namespace Lect55Ex3
             var numbersList = new List<int>();
             numbersList = numbers.Split(' ').Select(Int32.Parse).ToList();
             List<int> Distinct = numbersList.Distinct().ToList();
-            Distinct.Sort();
 
             if (Distinct.Count < 5) 
             {
@@ -24,13 +23,10 @@ namespace Lect55Ex3
             }
             else
             {
+                Distinct.Sort();
                 Console.WriteLine("Sorted numbers");
-                {
-                    foreach (int i in Distinct)
-                    {
-                        Console.WriteLine(i);
-                    }
-                }
+                foreach (int i in Distinct)
+                Console.WriteLine(i);
                 Console.ReadKey();
             }
         }
