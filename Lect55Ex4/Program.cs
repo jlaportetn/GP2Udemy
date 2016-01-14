@@ -14,20 +14,19 @@ namespace Lect55Ex4
             Console.WriteLine("Please enter a sequence of numbers, or type quit to exit.");
             var numbers = (Console.ReadLine());
             var numbersList = new List<int>();
+            int numbersAsInt;
+            Int32.TryParse(numbers, out numbersAsInt);
 
             while (numbers != "quit")
             {
-                int numbersAsInt = Int32.TryParse(numbers, out numbersAsInt);
                 numbersList.Add(numbersAsInt);
-                numbers = Console.ReadLine();
-                List<int> Distinct = numbersList.Distinct().ToList();
-
-                foreach (int i in Distinct)
+                List<int> distict = numbersList.Distinct().ToList();
+                foreach (int i in distict)
                 {
                     Console.WriteLine(i);
                 }
-                Console.ReadKey();
             }
+            Console.ReadKey();
         }
     }
 }

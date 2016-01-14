@@ -19,16 +19,17 @@ namespace Lect55Ex3
             if (Distinct.Count < 5) 
             {
                 Console.WriteLine("Duplicate entered, or not enough numbers entered.  Please try again.");
-                Console.ReadKey();
             }
             else
             {
                 Distinct.Sort();
                 Console.WriteLine("Sorted numbers");
                 foreach (int i in Distinct)
-                Console.WriteLine(i);
-                Console.ReadKey();
+                {
+                    Console.WriteLine(i);
+                }
             }
+            Console.ReadKey();
         }
     }
 }
