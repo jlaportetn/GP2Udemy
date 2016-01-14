@@ -10,21 +10,29 @@ namespace Lect55Ex4
     {
         static void Main(string[] args)
         {
-            //Still working on this solution
             Console.WriteLine("Please enter a sequence of numbers, or type quit to exit.");
             var numbers = (Console.ReadLine());
             var numbersList = new List<int>();
-            int numbersAsInt;
-            Int32.TryParse(numbers, out numbersAsInt);
 
             while (numbers != "quit")
             {
-                numbersList.Add(numbersAsInt);
-                List<int> distict = numbersList.Distinct().ToList();
-                foreach (int i in distict)
+                int numbersAsInt;
+
+                if (Int32.TryParse(numbers, out numbersAsInt) == true)
                 {
-                    Console.WriteLine(i);
+                    numbersList.Add(numbersAsInt);
+                    List<int> distinct = numbersList.Distinct().ToList();
+                    Console.WriteLine("The unique numbers you entered are ");
+                    foreach (int i in distinct)
+                    {
+                        Console.WriteLine(i);
+                    }
                 }
+                else
+                {
+                    Console.WriteLine("Invalid entry");
+                }
+                numbers = Console.ReadLine();
             }
             Console.ReadKey();
         }
