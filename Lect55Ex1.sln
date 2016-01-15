@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect55Ex3", "Lect55Ex3\Lect
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect55Ex4", "Lect55Ex4\Lect55Ex4.csproj", "{2F5682E9-4DCA-47BE-8EF8-6234F9979086}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect55Ex_5", "Lect55Ex_5\Lect55Ex_5.csproj", "{F54AFEFA-03D2-4890-95D9-3361D9C271CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{2F5682E9-4DCA-47BE-8EF8-6234F9979086}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F5682E9-4DCA-47BE-8EF8-6234F9979086}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F5682E9-4DCA-47BE-8EF8-6234F9979086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F54AFEFA-03D2-4890-95D9-3361D9C271CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54AFEFA-03D2-4890-95D9-3361D9C271CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54AFEFA-03D2-4890-95D9-3361D9C271CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54AFEFA-03D2-4890-95D9-3361D9C271CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
