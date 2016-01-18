@@ -23,11 +23,12 @@ namespace Lect75Ex2
             foreach (var word in words)
             {
                 if (word.Length > longestWord.Length)
+                {
                     longestWord = word;
+                }
             }
             Console.WriteLine("The longest word is " + longestWord + ".");
             Console.ReadKey();
-
         }
     }
 }
