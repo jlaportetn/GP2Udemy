@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect67Ex4", "Lect67Ex4\Lect
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect67Ex5", "Lect67Ex5\Lect67Ex5.csproj", "{73F00631-B557-46A7-888F-43BEB3BF5182}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lect75Ex1", "Lect75Ex1\Lect75Ex1.csproj", "{66674887-3330-4115-802F-5971B39948BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{73F00631-B557-46A7-888F-43BEB3BF5182}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73F00631-B557-46A7-888F-43BEB3BF5182}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73F00631-B557-46A7-888F-43BEB3BF5182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66674887-3330-4115-802F-5971B39948BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66674887-3330-4115-802F-5971B39948BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66674887-3330-4115-802F-5971B39948BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66674887-3330-4115-802F-5971B39948BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
