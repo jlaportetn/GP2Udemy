@@ -20,10 +20,12 @@ namespace Lect75Ex1
             var words = readText.Split(' ');
 
             if (!File.Exists(path))
+            {
                 return;
+            }
             else
             {
-                Console.WriteLine("The number of words is " +words.Length);
+                Console.WriteLine("The number of words is " + words.Length);
             }
         }
     }
